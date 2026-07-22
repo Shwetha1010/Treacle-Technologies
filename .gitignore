@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Databases
+postgres_data/
+
+# Environment configurations and secrets
+.env
+.env.local
+
+# Operating System files
+.DS_Store
+Thumbs.db

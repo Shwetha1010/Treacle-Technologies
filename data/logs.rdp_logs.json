@@ -1,0 +1,3300 @@
+[{
+  "_id": {
+    "$oid": "6a1d25708d645cd756eaabd1"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-06-01T06:23:44.864Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "e00bd322-1dfd-4dc1-bb4b-dcfc14357baa",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-06-01T11:53:44.662+0530] [INFO ] Connected client computer name: PRD-JUMP-HOST-D",
+  "payload": "[INFO ] Connected client computer name: PRD-JUMP-HOST-D",
+  "timestamp": {
+    "$date": "2026-06-01T06:23:44.864Z"
+  },
+  "protocol": "RDP",
+  "port": 47438,
+  "connection_status": "Failure",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "6a1d25708d645cd756eaabd0"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-06-01T06:23:44.854Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "5845aa6f-f097-4977-990b-05277f73e6a6",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-06-01T11:53:44.641+0530] [INFO ] Socket 13: connection accepted from 10.20.45.11:47438",
+  "payload": "[INFO ] Socket 13: connection accepted from 10.20.45.11:47438",
+  "timestamp": {
+    "$date": "2026-06-01T06:23:44.854Z"
+  },
+  "protocol": "RDP",
+  "port": 47438,
+  "connection_status": "Failure",
+  "machine_name": "N/A",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "6a1d256f8d645cd756eaabcf"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-06-01T06:23:43.854Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "921aa6d6-db06-4e4c-8509-1783e65e4331",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-06-01T11:53:43.213+0530] [INFO ] Socket 13: connection accepted from 10.20.45.11:47437",
+  "payload": "[INFO ] Socket 13: connection accepted from 10.20.45.11:47437",
+  "timestamp": {
+    "$date": "2026-06-01T06:23:43.854Z"
+  },
+  "protocol": "RDP",
+  "port": 47437,
+  "connection_status": "Failure",
+  "machine_name": "N/A",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "6a1d255d8d645cd756eaabcc"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-06-01T06:23:25.952Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "c980dc4b-a967-49fc-86a5-2bdde587a3c1",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.20",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-06-01T11:53:25.431+0530] [INFO ] Connected client computer name: PRD-JUMP-HOST-D",
+  "payload": "[INFO ] Connected client computer name: PRD-JUMP-HOST-D",
+  "timestamp": {
+    "$date": "2026-06-01T06:23:25.952Z"
+  },
+  "protocol": "RDP",
+  "port": 47434,
+  "connection_status": "Failure",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "6a1d255d8d645cd756eaabcb"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-06-01T06:23:25.943Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "0b0420c9-0eac-4155-b101-c546ec79c294",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.20",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-06-01T11:53:25.284+0530] [INFO ] Socket 13: connection accepted from 10.20.45.11:47434",
+  "payload": "[INFO ] Socket 13: connection accepted from 10.20.45.11:47434",
+  "timestamp": {
+    "$date": "2026-06-01T06:23:25.943Z"
+  },
+  "protocol": "RDP",
+  "port": 47434,
+  "connection_status": "Failure",
+  "machine_name": "N/A",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "6a1d255a8d645cd756eaabca"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-06-01T06:23:22.943Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "c3d31b6a-8d7b-4a36-8172-2c36eb9b5524",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.20",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-06-01T11:53:22.227+0530] [INFO ] Socket 13: connection accepted from 10.20.45.11:47433",
+  "payload": "[INFO ] Socket 13: connection accepted from 10.20.45.11:47433",
+  "timestamp": {
+    "$date": "2026-06-01T06:23:22.943Z"
+  },
+  "protocol": "RDP",
+  "port": 47433,
+  "connection_status": "Failure",
+  "machine_name": "N/A",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "69983f8d18489699deb1f1e3"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T11:03:41.590Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "8928d34e-5973-4864-922b-c007cc2430cb",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.19",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T16:33:41.316+0530] [INFO ] xrdp_wm_log_msg: login was successful - creating session",
+  "payload": "[INFO ] xrdp_wm_log_msg: login was successful - creating session",
+  "timestamp": {
+    "$date": "2026-02-20T11:03:41.590Z"
+  },
+  "protocol": "RDP",
+  "port": 61670,
+  "connection_status": "Success",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "232062781",
+  "password": "Welcome@123",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "69983f8d18489699deb1f1e2"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T11:03:41.589Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "33e45af0-9e53-4e70-b1d5-baae06aef6d6",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.19",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T16:33:41.209+0530] [INFO ] xrdp_wm_log_msg: Performing login request for 232062781 and password Welcome@123",
+  "payload": "[INFO ] xrdp_wm_log_msg: Performing login request for 232062781 and password Welcome@123",
+  "timestamp": {
+    "$date": "2026-02-20T11:03:41.589Z"
+  },
+  "protocol": "RDP",
+  "port": 61670,
+  "connection_status": "Failure",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "232062781",
+  "password": "Welcome@123",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "69983f7b18489699deb1f1e1"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T11:03:23.592Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "641edf6c-aa33-43e8-9741-39c38dff24bd",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.19",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T16:33:23.192+0530] [INFO ] Connected client computer name: PRD-JUMP-HOST-D",
+  "payload": "[INFO ] Connected client computer name: PRD-JUMP-HOST-D",
+  "timestamp": {
+    "$date": "2026-02-20T11:03:23.592Z"
+  },
+  "protocol": "RDP",
+  "port": 61670,
+  "connection_status": "Failure",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "69983f7b18489699deb1f1e0"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T11:03:23.583Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "53845ae5-a11f-4a2f-af4f-92f1f4b81492",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.19",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T16:33:23.179+0530] [INFO ] Socket 13: connection accepted from 10.20.45.11:61670",
+  "payload": "[INFO ] Socket 13: connection accepted from 10.20.45.11:61670",
+  "timestamp": {
+    "$date": "2026-02-20T11:03:23.583Z"
+  },
+  "protocol": "RDP",
+  "port": 61670,
+  "connection_status": "Failure",
+  "machine_name": "N/A",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "69983f7a18489699deb1f1df"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T11:03:22.582Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "d332ba87-791e-4ec2-9b7d-fe3a5f58add8",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.19",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T16:33:22.128+0530] [INFO ] Socket 13: connection accepted from 10.20.45.11:61669",
+  "payload": "[INFO ] Socket 13: connection accepted from 10.20.45.11:61669",
+  "timestamp": {
+    "$date": "2026-02-20T11:03:22.582Z"
+  },
+  "protocol": "RDP",
+  "port": 61669,
+  "connection_status": "Failure",
+  "machine_name": "N/A",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "69983f6018489699deb1f1dd"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T11:02:56.578Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "45075c57-612a-4029-91a7-8350208bc110",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.19",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T16:32:56.344+0530] [INFO ] xrdp_wm_log_msg: login was successful - creating session",
+  "payload": "[INFO ] xrdp_wm_log_msg: login was successful - creating session",
+  "timestamp": {
+    "$date": "2026-02-20T11:02:56.578Z"
+  },
+  "protocol": "RDP",
+  "port": 61668,
+  "connection_status": "Success",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "administrator",
+  "password": "admin",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "69983f6018489699deb1f1dc"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T11:02:56.576Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "21a9dd87-04ce-4635-a4a9-bcf30674ed70",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.19",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T16:32:56.120+0530] [INFO ] xrdp_wm_log_msg: Performing login request for administrator and password admin",
+  "payload": "[INFO ] xrdp_wm_log_msg: Performing login request for administrator and password admin",
+  "timestamp": {
+    "$date": "2026-02-20T11:02:56.576Z"
+  },
+  "protocol": "RDP",
+  "port": 61668,
+  "connection_status": "Failure",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "administrator",
+  "password": "admin",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "69983f5a18489699deb1f1db"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T11:02:50.581Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "ba7f4e8e-98a0-41e9-bce5-1b7529c1d629",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.19",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T16:32:49.732+0530] [INFO ] Connected client computer name: PRD-JUMP-HOST-D",
+  "payload": "[INFO ] Connected client computer name: PRD-JUMP-HOST-D",
+  "timestamp": {
+    "$date": "2026-02-20T11:02:50.581Z"
+  },
+  "protocol": "RDP",
+  "port": 61668,
+  "connection_status": "Failure",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "69983f5a18489699deb1f1da"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T11:02:50.572Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "e3972ed3-62cc-45a8-b146-c545cbde4ae8",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.19",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T16:32:49.717+0530] [INFO ] Socket 13: connection accepted from 10.20.45.11:61668",
+  "payload": "[INFO ] Socket 13: connection accepted from 10.20.45.11:61668",
+  "timestamp": {
+    "$date": "2026-02-20T11:02:50.572Z"
+  },
+  "protocol": "RDP",
+  "port": 61668,
+  "connection_status": "Failure",
+  "machine_name": "N/A",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "69983f5918489699deb1f1d9"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T11:02:49.572Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "8e3578cd-eb10-4dfd-99a3-0d8bdf219845",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.19",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T16:32:48.673+0530] [INFO ] Socket 13: connection accepted from 10.20.45.11:61667",
+  "payload": "[INFO ] Socket 13: connection accepted from 10.20.45.11:61667",
+  "timestamp": {
+    "$date": "2026-02-20T11:02:49.572Z"
+  },
+  "protocol": "RDP",
+  "port": 61667,
+  "connection_status": "Failure",
+  "machine_name": "N/A",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "69983b8d18489699deb1f197"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T10:46:37.829Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "91f62584-09eb-4391-a1cb-8a21e5f202ce",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T16:16:37.407+0530] [INFO ] xrdp_wm_log_msg: login was successful - creating session",
+  "payload": "[INFO ] xrdp_wm_log_msg: login was successful - creating session",
+  "timestamp": {
+    "$date": "2026-02-20T10:46:37.829Z"
+  },
+  "protocol": "RDP",
+  "port": 61565,
+  "connection_status": "Success",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "administrator",
+  "password": "admin",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "69983b8d18489699deb1f196"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T10:46:37.828Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "65844450-97d1-4df3-beaf-f4408f782f56",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T16:16:37.359+0530] [INFO ] xrdp_wm_log_msg: Performing login request for administrator and password admin",
+  "payload": "[INFO ] xrdp_wm_log_msg: Performing login request for administrator and password admin",
+  "timestamp": {
+    "$date": "2026-02-20T10:46:37.828Z"
+  },
+  "protocol": "RDP",
+  "port": 61565,
+  "connection_status": "Failure",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "administrator",
+  "password": "admin",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "69983b7d18489699deb1f195"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T10:46:21.847Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "b0a50942-e815-439b-9bd3-7dffbac5ae76",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T16:16:20.986+0530] [INFO ] Connected client computer name: PRD-JUMP-HOST-D",
+  "payload": "[INFO ] Connected client computer name: PRD-JUMP-HOST-D",
+  "timestamp": {
+    "$date": "2026-02-20T10:46:21.847Z"
+  },
+  "protocol": "RDP",
+  "port": 61565,
+  "connection_status": "Failure",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "69983b7d18489699deb1f194"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T10:46:21.842Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "29d86982-8183-4092-becc-8d3b97df2468",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T16:16:20.974+0530] [INFO ] Socket 13: connection accepted from 10.20.45.11:61565",
+  "payload": "[INFO ] Socket 13: connection accepted from 10.20.45.11:61565",
+  "timestamp": {
+    "$date": "2026-02-20T10:46:21.842Z"
+  },
+  "protocol": "RDP",
+  "port": 61565,
+  "connection_status": "Failure",
+  "machine_name": "N/A",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "69983b7d18489699deb1f193"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T10:46:21.821Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "fb9279da-9397-4204-befb-ae42503d35bf",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T16:16:20.916+0530] [INFO ] Socket 13: connection accepted from 10.20.45.11:61564",
+  "payload": "[INFO ] Socket 13: connection accepted from 10.20.45.11:61564",
+  "timestamp": {
+    "$date": "2026-02-20T10:46:21.821Z"
+  },
+  "protocol": "RDP",
+  "port": 61564,
+  "connection_status": "Failure",
+  "machine_name": "N/A",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "69983b0c18489699deb1f188"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T10:44:28.365Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "45e593b4-06ce-466d-a831-ae85a712ccc5",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.20",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T16:14:28.199+0530] [INFO ] xrdp_wm_log_msg: login was successful - creating session",
+  "payload": "[INFO ] xrdp_wm_log_msg: login was successful - creating session",
+  "timestamp": {
+    "$date": "2026-02-20T10:44:28.365Z"
+  },
+  "protocol": "RDP",
+  "port": 61544,
+  "connection_status": "Success",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "administrator",
+  "password": "admin",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "69983b0c18489699deb1f187"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T10:44:28.363Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "ffa17c84-f003-41cf-9b8e-1b8e93ae9f6f",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.20",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T16:14:28.595+0530] [INFO ] xrdp_wm_log_msg: Performing login request for administrator and password admin",
+  "payload": "[INFO ] xrdp_wm_log_msg: Performing login request for administrator and password admin",
+  "timestamp": {
+    "$date": "2026-02-20T10:44:28.363Z"
+  },
+  "protocol": "RDP",
+  "port": 61544,
+  "connection_status": "Failure",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "administrator",
+  "password": "admin",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "699838c018489699deb1efdf"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T10:34:40.264Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "c96fa982-49de-4346-9e24-7921246c88e8",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.20",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T16:04:39.486+0530] [INFO ] xrdp_wm_log_msg: Performing login request for administrator and password admin",
+  "payload": "[INFO ] xrdp_wm_log_msg: Performing login request for administrator and password admin",
+  "timestamp": {
+    "$date": "2026-02-20T10:34:40.264Z"
+  },
+  "protocol": "RDP",
+  "port": 61544,
+  "connection_status": "Failure",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "administrator",
+  "password": "admin",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "699838b718489699deb1efde"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T10:34:31.267Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "21158b6d-317c-4143-885b-5f81de2e4169",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.20",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T16:04:31.580+0530] [INFO ] Connected client computer name: PRD-JUMP-HOST-D",
+  "payload": "[INFO ] Connected client computer name: PRD-JUMP-HOST-D",
+  "timestamp": {
+    "$date": "2026-02-20T10:34:31.267Z"
+  },
+  "protocol": "RDP",
+  "port": 61544,
+  "connection_status": "Failure",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "699838b718489699deb1efdd"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T10:34:31.258Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "69b301fa-180c-411a-92f4-818d9d44fc13",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.20",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T16:04:31.447+0530] [INFO ] Socket 13: connection accepted from 10.20.45.11:61544",
+  "payload": "[INFO ] Socket 13: connection accepted from 10.20.45.11:61544",
+  "timestamp": {
+    "$date": "2026-02-20T10:34:31.258Z"
+  },
+  "protocol": "RDP",
+  "port": 61544,
+  "connection_status": "Failure",
+  "machine_name": "N/A",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "699838b618489699deb1efdc"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T10:34:30.258Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "f57bbe4b-667e-4b4d-8ff1-5ba78a37f566",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.20",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T16:04:29.814+0530] [INFO ] Socket 13: connection accepted from 10.20.45.11:61543",
+  "payload": "[INFO ] Socket 13: connection accepted from 10.20.45.11:61543",
+  "timestamp": {
+    "$date": "2026-02-20T10:34:30.258Z"
+  },
+  "protocol": "RDP",
+  "port": 61543,
+  "connection_status": "Failure",
+  "machine_name": "N/A",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "699833f518489699deb1ee59"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T10:14:13.489Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "abec5156-267f-41e8-8f38-419367280989",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T15:44:12.860+0530] [INFO ] xrdp_wm_log_msg: login was successful - creating session",
+  "payload": "[INFO ] xrdp_wm_log_msg: login was successful - creating session",
+  "timestamp": {
+    "$date": "2026-02-20T10:14:13.489Z"
+  },
+  "protocol": "RDP",
+  "port": 61439,
+  "connection_status": "Success",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "office",
+  "password": "manager#@!123",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "699833f518489699deb1ee58"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T10:14:13.487Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "b82b1e41-70d0-4999-9104-6c788d3a8334",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T15:44:12.782+0530] [INFO ] xrdp_wm_log_msg: Performing login request for office and password manager#@!123",
+  "payload": "[INFO ] xrdp_wm_log_msg: Performing login request for office and password manager#@!123",
+  "timestamp": {
+    "$date": "2026-02-20T10:14:13.487Z"
+  },
+  "protocol": "RDP",
+  "port": 61439,
+  "connection_status": "Failure",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "office",
+  "password": "manager#@!123",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "6998339f18489699deb1ee56"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T10:12:47.475Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "d0f25325-aec7-4ef1-a8d7-3a4653944736",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T15:42:47.150+0530] [INFO ] xrdp_wm_log_msg: Performing login request for administrator and password admin",
+  "payload": "[INFO ] xrdp_wm_log_msg: Performing login request for administrator and password admin",
+  "timestamp": {
+    "$date": "2026-02-20T10:12:47.475Z"
+  },
+  "protocol": "RDP",
+  "port": 61439,
+  "connection_status": "Failure",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "administrator",
+  "password": "admin",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "6998339718489699deb1ee55"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T10:12:39.496Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "a4240fc9-c6d4-4ea5-bd3e-077021c5dd8b",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T15:42:38.666+0530] [INFO ] Connected client computer name: PRD-JUMP-HOST-D",
+  "payload": "[INFO ] Connected client computer name: PRD-JUMP-HOST-D",
+  "timestamp": {
+    "$date": "2026-02-20T10:12:39.496Z"
+  },
+  "protocol": "RDP",
+  "port": 61439,
+  "connection_status": "Failure",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "6998339718489699deb1ee54"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T10:12:39.491Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "0eee9477-ec89-4290-b581-bfdef89c794f",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T15:42:38.653+0530] [INFO ] Socket 13: connection accepted from 10.20.45.11:61439",
+  "payload": "[INFO ] Socket 13: connection accepted from 10.20.45.11:61439",
+  "timestamp": {
+    "$date": "2026-02-20T10:12:39.491Z"
+  },
+  "protocol": "RDP",
+  "port": 61439,
+  "connection_status": "Failure",
+  "machine_name": "N/A",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "6998339718489699deb1ee53"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T10:12:39.469Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "3b8f5805-6080-4682-bf84-4d2202b99d84",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T15:42:38.626+0530] [INFO ] Socket 13: connection accepted from 10.20.45.11:61438",
+  "payload": "[INFO ] Socket 13: connection accepted from 10.20.45.11:61438",
+  "timestamp": {
+    "$date": "2026-02-20T10:12:39.469Z"
+  },
+  "protocol": "RDP",
+  "port": 61438,
+  "connection_status": "Failure",
+  "machine_name": "N/A",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "6998339018489699deb1ee4f"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T10:12:32.467Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "70ef1458-ef8f-4e03-9e81-8c3f898fdac3",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T15:42:31.891+0530] [INFO ] xrdp_wm_log_msg: Performing login request for 113506164 and password Welcome@123",
+  "payload": "[INFO ] xrdp_wm_log_msg: Performing login request for 113506164 and password Welcome@123",
+  "timestamp": {
+    "$date": "2026-02-20T10:12:32.467Z"
+  },
+  "protocol": "RDP",
+  "port": 61430,
+  "connection_status": "Failure",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "113506164",
+  "password": "Welcome@123",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "6998336318489699deb1ee4d"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T10:11:47.459Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "9a57878a-ff5a-41ef-a81d-658598a334fc",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T15:41:46.603+0530] [INFO ] xrdp_wm_log_msg: Performing login request for docker and password admin",
+  "payload": "[INFO ] xrdp_wm_log_msg: Performing login request for docker and password admin",
+  "timestamp": {
+    "$date": "2026-02-20T10:11:47.459Z"
+  },
+  "protocol": "RDP",
+  "port": 61430,
+  "connection_status": "Failure",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "docker",
+  "password": "admin",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "6998334918489699deb1ee4c"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T10:11:21.454Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "ee57d0f1-1d42-40c8-9164-2c27386b137b",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T15:41:20.705+0530] [INFO ] xrdp_wm_log_msg: Performing login request for administrator and password admin",
+  "payload": "[INFO ] xrdp_wm_log_msg: Performing login request for administrator and password admin",
+  "timestamp": {
+    "$date": "2026-02-20T10:11:21.454Z"
+  },
+  "protocol": "RDP",
+  "port": 61430,
+  "connection_status": "Failure",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "administrator",
+  "password": "admin",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "699832ef18489699deb1ee49"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T10:09:51.440Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "fc922687-cedf-4bf5-9a05-b819c4cd6196",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T15:39:50.557+0530] [INFO ] xrdp_wm_log_msg: Performing login request for docker and password admin",
+  "payload": "[INFO ] xrdp_wm_log_msg: Performing login request for docker and password admin",
+  "timestamp": {
+    "$date": "2026-02-20T10:09:51.440Z"
+  },
+  "protocol": "RDP",
+  "port": 61430,
+  "connection_status": "Failure",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "docker",
+  "password": "admin",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "699832e718489699deb1ee48"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T10:09:43.444Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "4e550ce5-c202-4821-bd97-3ef4735c6831",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T15:39:42.864+0530] [INFO ] xrdp_wm_log_msg: Performing login request for org/docker and password admin",
+  "payload": "[INFO ] xrdp_wm_log_msg: Performing login request for org/docker and password admin",
+  "timestamp": {
+    "$date": "2026-02-20T10:09:43.444Z"
+  },
+  "protocol": "RDP",
+  "port": 61430,
+  "connection_status": "Failure",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "org/docker",
+  "password": "admin",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "699832cd18489699deb1ee46"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T10:09:17.461Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "643227d8-9b88-40bb-b7cf-5bc2c7c26c4d",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T15:39:17.191+0530] [INFO ] Connected client computer name: PRD-JUMP-HOST-D",
+  "payload": "[INFO ] Connected client computer name: PRD-JUMP-HOST-D",
+  "timestamp": {
+    "$date": "2026-02-20T10:09:17.461Z"
+  },
+  "protocol": "RDP",
+  "port": 61430,
+  "connection_status": "Failure",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "699832cd18489699deb1ee45"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T10:09:17.456Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "39a55249-eaea-49d3-b1bb-00c48c236ab8",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T15:39:17.179+0530] [INFO ] Socket 13: connection accepted from 10.20.45.11:61430",
+  "payload": "[INFO ] Socket 13: connection accepted from 10.20.45.11:61430",
+  "timestamp": {
+    "$date": "2026-02-20T10:09:17.456Z"
+  },
+  "protocol": "RDP",
+  "port": 61430,
+  "connection_status": "Failure",
+  "machine_name": "N/A",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "699832cd18489699deb1ee44"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T10:09:17.434Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "75892b48-a6eb-47fe-b91c-01384326a1c9",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T15:39:17.132+0530] [INFO ] Socket 13: connection accepted from 10.20.45.11:61429",
+  "payload": "[INFO ] Socket 13: connection accepted from 10.20.45.11:61429",
+  "timestamp": {
+    "$date": "2026-02-20T10:09:17.434Z"
+  },
+  "protocol": "RDP",
+  "port": 61429,
+  "connection_status": "Failure",
+  "machine_name": "N/A",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "699819e618489699deb1e8f8"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T08:23:02.329Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "d9f7670f-dc56-4af8-b6f0-011ebe5a9f1f",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T13:53:01.361+0530] [INFO ] xrdp_wm_log_msg: login was successful - creating session",
+  "payload": "[INFO ] xrdp_wm_log_msg: login was successful - creating session",
+  "timestamp": {
+    "$date": "2026-02-20T08:23:02.329Z"
+  },
+  "protocol": "RDP",
+  "port": 61036,
+  "connection_status": "Success",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "office",
+  "password": "manager#@!123",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "699819e518489699deb1e8f7"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T08:23:01.335Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "78bd8f55-7465-4680-882b-358e504b2cec",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T13:53:01.286+0530] [INFO ] xrdp_wm_log_msg: Performing login request for office and password manager#@!123",
+  "payload": "[INFO ] xrdp_wm_log_msg: Performing login request for office and password manager#@!123",
+  "timestamp": {
+    "$date": "2026-02-20T08:23:01.335Z"
+  },
+  "protocol": "RDP",
+  "port": 61036,
+  "connection_status": "Failure",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "office",
+  "password": "manager#@!123",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "699819db18489699deb1e8f6"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T08:22:51.348Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "bafa041c-c4e8-44dd-ba4c-eaf2c40ec624",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T13:52:51.143+0530] [INFO ] Connected client computer name: PRD-JUMP-HOST-D",
+  "payload": "[INFO ] Connected client computer name: PRD-JUMP-HOST-D",
+  "timestamp": {
+    "$date": "2026-02-20T08:22:51.348Z"
+  },
+  "protocol": "RDP",
+  "port": 61036,
+  "connection_status": "Failure",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "699819db18489699deb1e8f5"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T08:22:51.329Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "16c32442-dfdf-48ca-9761-22deea222809",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T13:52:51.130+0530] [INFO ] Socket 13: connection accepted from 10.20.45.11:61036",
+  "payload": "[INFO ] Socket 13: connection accepted from 10.20.45.11:61036",
+  "timestamp": {
+    "$date": "2026-02-20T08:22:51.329Z"
+  },
+  "protocol": "RDP",
+  "port": 61036,
+  "connection_status": "Failure",
+  "machine_name": "N/A",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "699819d818489699deb1e8f4"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T08:22:48.329Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "92fde06d-b1e7-400b-b76c-1e592a4cc9cf",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T13:52:47.828+0530] [INFO ] Socket 13: connection accepted from 10.20.45.11:61035",
+  "payload": "[INFO ] Socket 13: connection accepted from 10.20.45.11:61035",
+  "timestamp": {
+    "$date": "2026-02-20T08:22:48.329Z"
+  },
+  "protocol": "RDP",
+  "port": 61035,
+  "connection_status": "Failure",
+  "machine_name": "N/A",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "69980eeb18489699deb1b9c4"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T07:36:11.923Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "82931f06-b7af-445d-bd3e-2fec66800028",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T13:06:11.576+0530] [INFO ] xrdp_wm_log_msg: login was successful - creating session",
+  "payload": "[INFO ] xrdp_wm_log_msg: login was successful - creating session",
+  "timestamp": {
+    "$date": "2026-02-20T07:36:11.923Z"
+  },
+  "protocol": "RDP",
+  "port": 60921,
+  "connection_status": "Success",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "manager",
+  "password": "office#@!123",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "69980eeb18489699deb1b9c3"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T07:36:11.922Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "dbf94968-b191-4253-9492-2a9514355c17",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T13:06:11.507+0530] [INFO ] xrdp_wm_log_msg: Performing login request for manager and password office#@!123",
+  "payload": "[INFO ] xrdp_wm_log_msg: Performing login request for manager and password office#@!123",
+  "timestamp": {
+    "$date": "2026-02-20T07:36:11.922Z"
+  },
+  "protocol": "RDP",
+  "port": 60921,
+  "connection_status": "Failure",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "manager",
+  "password": "office#@!123",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "69980ede18489699deb1b9c1"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T07:35:58.920Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "2b2ea03c-9016-4a13-8344-a1dc7c9800d3",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T13:05:58.658+0530] [INFO ] xrdp_wm_log_msg: Performing login request for office and password manager#@!1213",
+  "payload": "[INFO ] xrdp_wm_log_msg: Performing login request for office and password manager#@!1213",
+  "timestamp": {
+    "$date": "2026-02-20T07:35:58.920Z"
+  },
+  "protocol": "RDP",
+  "port": 60921,
+  "connection_status": "Failure",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "office",
+  "password": "manager#@!1213",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "69980e9e18489699deb1b9c0"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T07:34:54.908Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "356227be-99a7-48f7-994b-d6607fbf42da",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T13:04:54.410+0530] [INFO ] xrdp_wm_log_msg: Performing login request for root and password root",
+  "payload": "[INFO ] xrdp_wm_log_msg: Performing login request for root and password root",
+  "timestamp": {
+    "$date": "2026-02-20T07:34:54.908Z"
+  },
+  "protocol": "RDP",
+  "port": 60921,
+  "connection_status": "Failure",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "root",
+  "password": "root",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "69980e5618489699deb1b9bf"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T07:33:42.901Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "a805a34c-a012-40c2-be38-400593463789",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T13:03:42.418+0530] [INFO ] xrdp_wm_log_msg: Performing login request for root and password admin",
+  "payload": "[INFO ] xrdp_wm_log_msg: Performing login request for root and password admin",
+  "timestamp": {
+    "$date": "2026-02-20T07:33:42.901Z"
+  },
+  "protocol": "RDP",
+  "port": 60921,
+  "connection_status": "Failure",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "root",
+  "password": "admin",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "69980e5218489699deb1b8fa"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T07:33:38.903Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "f2819eaf-6a57-4d4b-9f66-9813a3c3cbc0",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T13:03:38.481+0530] [INFO ] Connected client computer name: PRD-JUMP-HOST-D",
+  "payload": "[INFO ] Connected client computer name: PRD-JUMP-HOST-D",
+  "timestamp": {
+    "$date": "2026-02-20T07:33:38.903Z"
+  },
+  "protocol": "RDP",
+  "port": 60921,
+  "connection_status": "Failure",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "69980e5218489699deb1b8f7"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T07:33:38.895Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "6f92753a-d859-4bdc-ae89-b0c6579f0fca",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T13:03:38.467+0530] [INFO ] Socket 13: connection accepted from 10.20.45.11:60921",
+  "payload": "[INFO ] Socket 13: connection accepted from 10.20.45.11:60921",
+  "timestamp": {
+    "$date": "2026-02-20T07:33:38.895Z"
+  },
+  "protocol": "RDP",
+  "port": 60921,
+  "connection_status": "Failure",
+  "machine_name": "N/A",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "69980e5118489699deb1b8c8"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T07:33:37.895Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "4c6beecb-7c68-4d91-8c8e-e93133a77ab0",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T13:03:37.248+0530] [INFO ] Socket 13: connection accepted from 10.20.45.11:60920",
+  "payload": "[INFO ] Socket 13: connection accepted from 10.20.45.11:60920",
+  "timestamp": {
+    "$date": "2026-02-20T07:33:37.895Z"
+  },
+  "protocol": "RDP",
+  "port": 60920,
+  "connection_status": "Failure",
+  "machine_name": "N/A",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "69980e2718489699deb1b2b4"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T07:32:55.884Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "bf272268-81a1-4e5f-9471-8d7443f91510",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T13:02:54.939+0530] [INFO ] xrdp_wm_log_msg: login was successful - creating session",
+  "payload": "[INFO ] xrdp_wm_log_msg: login was successful - creating session",
+  "timestamp": {
+    "$date": "2026-02-20T07:32:55.884Z"
+  },
+  "protocol": "RDP",
+  "port": 60917,
+  "connection_status": "Success",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "manager",
+  "password": "office#@!123",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "69980e2618489699deb1b2b3"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T07:32:54.888Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "a3afda79-6206-4a24-966f-7f49d9658213",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T13:02:54.871+0530] [INFO ] xrdp_wm_log_msg: Performing login request for manager and password office#@!123",
+  "payload": "[INFO ] xrdp_wm_log_msg: Performing login request for manager and password office#@!123",
+  "timestamp": {
+    "$date": "2026-02-20T07:32:54.888Z"
+  },
+  "protocol": "RDP",
+  "port": 60917,
+  "connection_status": "Failure",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "manager",
+  "password": "office#@!123",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "69980e1b18489699deb1b078"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T07:32:43.891Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "b11d3eb6-9c2b-4fd2-8943-ea8b585f02d5",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T13:02:43.626+0530] [INFO ] Connected client computer name: PRD-JUMP-HOST-D",
+  "payload": "[INFO ] Connected client computer name: PRD-JUMP-HOST-D",
+  "timestamp": {
+    "$date": "2026-02-20T07:32:43.891Z"
+  },
+  "protocol": "RDP",
+  "port": 60917,
+  "connection_status": "Failure",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "69980e1b18489699deb1b077"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T07:32:43.883Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "3126e4c5-990c-4c2b-a89b-0696d07096ec",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T13:02:43.614+0530] [INFO ] Socket 13: connection accepted from 10.20.45.11:60917",
+  "payload": "[INFO ] Socket 13: connection accepted from 10.20.45.11:60917",
+  "timestamp": {
+    "$date": "2026-02-20T07:32:43.883Z"
+  },
+  "protocol": "RDP",
+  "port": 60917,
+  "connection_status": "Failure",
+  "machine_name": "N/A",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "69980e1a18489699deb1b076"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T07:32:42.882Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "921f91e4-ae56-4cf7-b189-4bb7f1482cca",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T13:02:42.217+0530] [INFO ] Socket 13: connection accepted from 10.20.45.11:60916",
+  "payload": "[INFO ] Socket 13: connection accepted from 10.20.45.11:60916",
+  "timestamp": {
+    "$date": "2026-02-20T07:32:42.882Z"
+  },
+  "protocol": "RDP",
+  "port": 60916,
+  "connection_status": "Failure",
+  "machine_name": "N/A",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "69980d8418489699deb1a12b"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T07:30:12.854Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "531b0d6f-579e-499e-8142-383539e56047",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T13:00:12.231+0530] [INFO ] xrdp_wm_log_msg: login was successful - creating session",
+  "payload": "[INFO ] xrdp_wm_log_msg: login was successful - creating session",
+  "timestamp": {
+    "$date": "2026-02-20T07:30:12.854Z"
+  },
+  "protocol": "RDP",
+  "port": 60906,
+  "connection_status": "Success",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "office",
+  "password": "manager#@!123",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "69980d8418489699deb1a12a"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T07:30:12.853Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "bea74daf-bd33-4796-8720-5b2a55418aab",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T13:00:12.139+0530] [INFO ] xrdp_wm_log_msg: Performing login request for office and password manager#@!123",
+  "payload": "[INFO ] xrdp_wm_log_msg: Performing login request for office and password manager#@!123",
+  "timestamp": {
+    "$date": "2026-02-20T07:30:12.853Z"
+  },
+  "protocol": "RDP",
+  "port": 60906,
+  "connection_status": "Failure",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "office",
+  "password": "manager#@!123",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "69980d3a18489699deb1a121"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T07:28:58.843Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "ea61c516-8d76-4cbf-a5a5-d6d1873f9c63",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T12:58:58.832+0530] [INFO ] Connected client computer name: PRD-JUMP-HOST-D",
+  "payload": "[INFO ] Connected client computer name: PRD-JUMP-HOST-D",
+  "timestamp": {
+    "$date": "2026-02-20T07:28:58.843Z"
+  },
+  "protocol": "RDP",
+  "port": 60906,
+  "connection_status": "Failure",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "69980d3a18489699deb1a120"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T07:28:58.836Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "8b059889-5c2a-4332-91b0-ead1b05fec1b",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T12:58:58.812+0530] [INFO ] Socket 13: connection accepted from 10.20.45.11:60906",
+  "payload": "[INFO ] Socket 13: connection accepted from 10.20.45.11:60906",
+  "timestamp": {
+    "$date": "2026-02-20T07:28:58.836Z"
+  },
+  "protocol": "RDP",
+  "port": 60906,
+  "connection_status": "Failure",
+  "machine_name": "N/A",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "69980d3918489699deb1a11f"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-20T07:28:57.838Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "131fe036-768a-4229-b3a0-a6a6673592c2",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-20T12:58:57.646+0530] [INFO ] Socket 13: connection accepted from 10.20.45.11:60904",
+  "payload": "[INFO ] Socket 13: connection accepted from 10.20.45.11:60904",
+  "timestamp": {
+    "$date": "2026-02-20T07:28:57.838Z"
+  },
+  "protocol": "RDP",
+  "port": 60904,
+  "connection_status": "Failure",
+  "machine_name": "N/A",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "698effa218489699deac0731"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-13T10:40:34.119Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "ac7474b1-2da7-41b4-9a3c-9ab902edf8e2",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-13T16:10:33.705+0530] [INFO ] Connected client computer name: PRD-JUMP-HOST-D",
+  "payload": "[INFO ] Connected client computer name: PRD-JUMP-HOST-D",
+  "timestamp": {
+    "$date": "2026-02-13T10:40:34.119Z"
+  },
+  "protocol": "RDP",
+  "port": 63721,
+  "connection_status": "Failure",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "698effa218489699deac0730"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-13T10:40:34.110Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "3a9a109b-49da-4a5c-b4ae-f0576aa6911c",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-13T16:10:33.692+0530] [INFO ] Socket 13: connection accepted from 10.20.45.11:63721",
+  "payload": "[INFO ] Socket 13: connection accepted from 10.20.45.11:63721",
+  "timestamp": {
+    "$date": "2026-02-13T10:40:34.110Z"
+  },
+  "protocol": "RDP",
+  "port": 63721,
+  "connection_status": "Failure",
+  "machine_name": "N/A",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "698effa018489699deac072f"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-13T10:40:32.112Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "129261a9-4752-4781-b82a-de006c4cc0aa",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.12",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-13T16:10:32.401+0530] [INFO ] Socket 13: connection accepted from 10.20.45.11:63720",
+  "payload": "[INFO ] Socket 13: connection accepted from 10.20.45.11:63720",
+  "timestamp": {
+    "$date": "2026-02-13T10:40:32.112Z"
+  },
+  "protocol": "RDP",
+  "port": 63720,
+  "connection_status": "Failure",
+  "machine_name": "N/A",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "698eff7318489699deac072c"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-13T10:39:47.064Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "6dddca19-369c-435e-a2b0-730b172a0f62",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.19",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-13T16:09:46.966+0530] [INFO ] xrdp_wm_log_msg: Performing login request for office and password manager!@#123",
+  "payload": "[INFO ] xrdp_wm_log_msg: Performing login request for office and password manager!@#123",
+  "timestamp": {
+    "$date": "2026-02-13T10:39:47.064Z"
+  },
+  "protocol": "RDP",
+  "port": 63716,
+  "connection_status": "Failure",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "office",
+  "password": "manager!@#123",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "698eff6618489699deac072b"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-13T10:39:34.065Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "a89dbbfc-15ad-42d8-822b-0e9ad20c5115",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.19",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-13T16:09:33.282+0530] [INFO ] Connected client computer name: PRD-JUMP-HOST-D",
+  "payload": "[INFO ] Connected client computer name: PRD-JUMP-HOST-D",
+  "timestamp": {
+    "$date": "2026-02-13T10:39:34.065Z"
+  },
+  "protocol": "RDP",
+  "port": 63716,
+  "connection_status": "Failure",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "698eff6618489699deac072a"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-13T10:39:34.057Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "3203da64-228e-4060-b017-689c2977534e",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.19",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-13T16:09:33.270+0530] [INFO ] Socket 13: connection accepted from 10.20.45.11:63716",
+  "payload": "[INFO ] Socket 13: connection accepted from 10.20.45.11:63716",
+  "timestamp": {
+    "$date": "2026-02-13T10:39:34.057Z"
+  },
+  "protocol": "RDP",
+  "port": 63716,
+  "connection_status": "Failure",
+  "machine_name": "N/A",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "698eff6418489699deac0729"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-13T10:39:32.058Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "e1af6867-0694-4d2a-9d96-5e270a1c91ec",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.19",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-13T16:09:31.647+0530] [INFO ] Socket 13: connection accepted from 10.20.45.11:63715",
+  "payload": "[INFO ] Socket 13: connection accepted from 10.20.45.11:63715",
+  "timestamp": {
+    "$date": "2026-02-13T10:39:32.058Z"
+  },
+  "protocol": "RDP",
+  "port": 63715,
+  "connection_status": "Failure",
+  "machine_name": "N/A",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "698eff4f18489699deac0728"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-13T10:39:11.718Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "4716a3fb-ae06-4257-846a-4fd77a7fc04d",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.20",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-13T16:09:11.387+0530] [INFO ] xrdp_wm_log_msg: Performing login request for office and password manager!@#123",
+  "payload": "[INFO ] xrdp_wm_log_msg: Performing login request for office and password manager!@#123",
+  "timestamp": {
+    "$date": "2026-02-13T10:39:11.718Z"
+  },
+  "protocol": "RDP",
+  "port": 63713,
+  "connection_status": "Failure",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "office",
+  "password": "manager!@#123",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "698eff2f18489699deac0727"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-13T10:38:39.718Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "ad9e1005-29c5-49bc-a6a0-41a35ce9a13f",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.20",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-13T16:08:39.334+0530] [INFO ] Connected client computer name: PRD-JUMP-HOST-D",
+  "payload": "[INFO ] Connected client computer name: PRD-JUMP-HOST-D",
+  "timestamp": {
+    "$date": "2026-02-13T10:38:39.718Z"
+  },
+  "protocol": "RDP",
+  "port": 63713,
+  "connection_status": "Failure",
+  "machine_name": "PRD-JUMP-HOST-D",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "698eff2f18489699deac0726"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-13T10:38:39.708Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "c7031a51-da65-4fb6-ab67-a508d16e445d",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.20",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-13T16:08:39.321+0530] [INFO ] Socket 13: connection accepted from 10.20.45.11:63713",
+  "payload": "[INFO ] Socket 13: connection accepted from 10.20.45.11:63713",
+  "timestamp": {
+    "$date": "2026-02-13T10:38:39.708Z"
+  },
+  "protocol": "RDP",
+  "port": 63713,
+  "connection_status": "Failure",
+  "machine_name": "N/A",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+},
+{
+  "_id": {
+    "$oid": "698eff2d18489699deac0725"
+  },
+  "status": "completed",
+  "last_updated_at": {
+    "$date": "2026-02-13T10:38:37.709Z"
+  },
+  "expected_enrichments": [],
+  "enriched_sources": [],
+  "trace_id": "04c3df83-dfb8-4cf8-b8cf-98caf323e1e2",
+  "ip_type": "Private",
+  "public": "N/A",
+  "private": {
+    "source": {
+      "ip": "10.20.45.11",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    },
+    "destination": {
+      "ip": "10.20.45.20",
+      "subnet": "192.168.1.0",
+      "gateway": "192.168.1.1"
+    }
+  },
+  "logline": "[2026-02-13T16:08:37.572+0530] [INFO ] Socket 13: connection accepted from 10.20.45.11:63712",
+  "payload": "[INFO ] Socket 13: connection accepted from 10.20.45.11:63712",
+  "timestamp": {
+    "$date": "2026-02-13T10:38:37.709Z"
+  },
+  "protocol": "RDP",
+  "port": 63712,
+  "connection_status": "Failure",
+  "machine_name": "N/A",
+  "username": "N/A",
+  "password": "N/A",
+  "honeypot_name": "rdp",
+  "honeytoken_name": null,
+  "honeytoken": {
+    "file": null,
+    "events": []
+  },
+  "decoy_name": "rdp_logs"
+}]
