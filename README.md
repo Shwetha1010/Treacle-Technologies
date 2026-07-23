@@ -132,6 +132,40 @@ Open your browser and navigate to: **`http://localhost:8000`**
 
 ---
 
+## ⚙️ Server Management (Start, Stop, Restart)
+
+If you reboot your system or need to manage the backend manually, use these commands from the project root directory:
+
+### 1. Database Management (PostgreSQL)
+Since the database cluster is fully contained inside the workspace (`./postgres_data`), manage it using `pg_ctl`:
+
+- **Start Database Server:**
+  ```bash
+  pg_ctl -D ./postgres_data -l ./postgres_data/server.log start
+  ```
+- **Stop Database Server:**
+  ```bash
+  pg_ctl -D ./postgres_data stop
+  ```
+- **Restart Database Server:**
+  ```bash
+  pg_ctl -D ./postgres_data -l ./postgres_data/server.log restart
+  ```
+- **Check Database Server Status:**
+  ```bash
+  pg_ctl -D ./postgres_data status
+  ```
+
+### 2. Application Server Management (FastAPI/Uvicorn)
+- **Start Web Application:**
+  ```bash
+  python3.11 -m uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload
+  ```
+- **Stop Web Application:**
+  Press `CTRL + C` in the running terminal window.
+
+---
+
 ## 🧪 Testing
 
 We use `pytest` for automated test coverage:
