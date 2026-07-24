@@ -121,3 +121,29 @@ def test_multi_tool_workflow(mock_summary, mock_investigate, mock_top, mock_clas
     assert res["data"]["top_attacker_discovery"][0]["source_ip"] == "10.20.30.40"
     assert res["data"]["ip_investigation"]["source_ip"] == "10.20.30.40"
     assert res["summary"] == "Mocked multi-step summary"
+
+@patch("app.agents.intent_classifier.classify")
+@patch("app.tools.ip_investigation.execute")
+@patch("app.tools.event_search.execute")
+@patch("app.agents.orchestrator.generate_analyst_summary")
+def test_conversation_memory(mock_summary, mock_search, mock_investigate, mock_classify):
+    # Setup intent classification results for sequential queries
+    mock_classify.side_effect = [
+        {"intent": "investigate_ip", "parameters": {"ip": "198.51.100.25"}, "confidence": 0.9},
+        {"intent": "search_security_events", "parameters": {"protocol": "SSH"}, "confidence": 0.9}
+    ]
+    
+    mock_investigate.return_value = {"status": "success", "data": {"source_ip": "198.51.100.25"}}
+    mock_search.return_value = {"status": "success", "data": []}
+    mock_summary.return_value = "Summary"
+    
+    # Run the first query to establish the session memory
+    res1 = orchestrator.run_query("Investigate 198.51.100.25", username="analyst_bob")
+    assert res1["status"] == "success"
+    
+    # Run the second follow-up query
+    res2 = orchestrator.run_query("Now show only its SSH activity.", username="analyst_bob")
+    assert res2["status"] == "success"
+    
+    # Verify search was called with the remembered IP address
+    mock_search.assert_called_with(ip="198.51.100.25", protocol="SSH")

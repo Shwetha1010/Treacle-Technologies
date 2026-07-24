@@ -43,7 +43,9 @@ def generate_analyst_summary(query: str, tools_used: list, retrieved_data: dict)
     except Exception as e:
         return f"Data retrieved successfully. (Summary generation failed: {e})"
 
-def run_query(query: str) -> dict:
+SESSION_MEMORIES = {}
+
+def run_query(query: str, username: str = None) -> dict:
     q_lower = query.lower()
     
     # 1. Classify intent
@@ -51,6 +53,17 @@ def run_query(query: str) -> dict:
     intent = classification.get("intent", "unknown")
     params = classification.get("parameters", {})
     
+    # Resolve referenced IP from conversation memory if not present in query
+    resolved_ip = params.get("ip") or intent_classifier.extract_ip(query)
+    if not resolved_ip and username and username in SESSION_MEMORIES:
+        referenced_words = ["its", "this ip", "that ip", "the ip", "the attacker", "show only", "filter", "his", "her", "their", "activity"]
+        if any(w in q_lower for w in referenced_words):
+            resolved_ip = SESSION_MEMORIES[username].get("last_ip")
+            if resolved_ip:
+                params["ip"] = resolved_ip
+                if "ip" not in params:
+                    params["ip"] = resolved_ip
+                    
     # 2. Check for destructive attempts
     if intent == "destructive" or "delete" in q_lower or "drop table" in q_lower or "truncate" in q_lower:
         return {
@@ -105,6 +118,9 @@ def run_query(query: str) -> dict:
         
         summary = generate_analyst_summary(query, ["get_top_attackers", "investigate_ip"], combined_data)
         
+        if username and top_ip:
+            SESSION_MEMORIES[username] = {"last_ip": top_ip}
+            
         return {
             "status": "success",
             "intent": "investigate_ip",
@@ -174,6 +190,9 @@ def run_query(query: str) -> dict:
     retrieved = tool_res.get("data", {})
     summary = generate_analyst_summary(query, tools_executed, retrieved)
     
+    if username and resolved_ip:
+        SESSION_MEMORIES[username] = {"last_ip": resolved_ip}
+        
     return {
         "status": "success",
         "intent": intent,

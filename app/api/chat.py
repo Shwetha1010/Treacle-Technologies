@@ -37,7 +37,7 @@ def chat(payload: QueryRequest, current_user: dict = Depends(get_current_user)):
         )
         
     try:
-        response = orchestrator.run_query(payload.query)
+        response = orchestrator.run_query(payload.query, username=current_user.get("sub"))
         return response
     except Exception as e:
         raise HTTPException(
