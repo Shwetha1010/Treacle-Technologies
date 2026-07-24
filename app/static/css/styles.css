@@ -265,6 +265,12 @@ body {
     padding: 24px;
     z-index: 3;
 }
+.sidebar-body {
+    flex: 1;
+    overflow-y: auto;
+    margin-bottom: 15px;
+    padding-right: 4px;
+}
 .sidebar-header {
     display: flex;
     flex-direction: column;
