@@ -74,6 +74,8 @@ def test_destructive_query_rejection(mock_classify):
     assert res["status"] == "rejected"
     assert "cannot perform destructive operations" in res["reason"]
     assert len(res["tools_used"]) == 0
+    assert "tools_executed" in res
+    assert len(res["tools_executed"]) == 0
 
 @patch("app.agents.intent_classifier.classify")
 @patch("app.tools.top_attackers.execute")

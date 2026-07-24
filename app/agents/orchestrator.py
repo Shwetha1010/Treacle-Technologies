@@ -57,6 +57,7 @@ def run_query(query: str) -> dict:
             "status": "rejected",
             "reason": "The assistant has read-only access and cannot perform destructive operations.",
             "tools_used": [],
+            "tools_executed": [],
             "data": {},
             "summary": "Request rejected due to violation of read-only access policy.",
             "limitations": []
