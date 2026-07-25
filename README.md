@@ -41,11 +41,32 @@ Key benefits:
 ## 3. Setup Instructions
 
 ### Prerequisites
-- **Python 3.11** installed.
-- **PostgreSQL** server running locally or accessible via network.
-- A **Groq API Key** (for intent classification and summary generation).
+- **Docker & Docker Compose** (Recommended) OR **Python 3.11** & **PostgreSQL 14+**
+- A **Groq API Key** (for intent classification and LLM summary generation).
 
-### Step-by-Step Installation
+---
+
+### Option A: Quick Start with Docker Compose (Recommended)
+
+Running with Docker spins up both PostgreSQL and the FastAPI application container, automatically seeds the honeypot dataset, and establishes the read-only security permissions.
+
+1. **Configure Environment Variables:**
+   ```bash
+   cp .env.example .env
+   ```
+   Add your `GROQ_API_KEY` to `.env`.
+
+2. **Launch with Docker Compose:**
+   ```bash
+   docker-compose up --build
+   ```
+
+3. **Access the Web Dashboard:**
+   Open **`http://localhost:8000`** in your browser.
+
+---
+
+### Option B: Manual Local Setup
 
 1. **Install Python Dependencies:**
    ```bash
@@ -53,33 +74,24 @@ Key benefits:
    ```
 
 2. **Configure Environment Variables:**
-   Create a `.env` file by copying the template:
    ```bash
    cp .env.example .env
    ```
-   Open the `.env` file and insert your configurations (see the [Environment Variables](#4-environment-variables) section below).
+   Configure your PostgreSQL connection settings and `GROQ_API_KEY` in `.env`.
 
-3. **Initialize Database and Import Honeypot Data:**
-   Ensure PostgreSQL is running, then execute:
+3. **Initialize Database and Import Data:**
+   Ensure PostgreSQL is running, then run:
    ```bash
    python3 scripts/import_data.py --data-dir ./data
    ```
-   *Note: If your environment uses specific python paths, run:*
-   ```bash
-   python3.11 scripts/import_data.py --data-dir ./data
-   ```
 
-4. **Start the FastAPI Application Server:**
+4. **Start the Application Server:**
    ```bash
-   python3 -m uvicorn app.main:app --reload
-   ```
-   Or explicitly via:
-   ```bash
-   python3.11 -m uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload
+   python3 -m uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
    ```
 
 5. **Access the Web Dashboard:**
-   Open your browser and navigate to: **`http://localhost:8000`**
+   Open **`http://localhost:8000`** in your browser.
 
 ---
 
