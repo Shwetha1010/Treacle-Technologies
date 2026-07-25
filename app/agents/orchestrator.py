@@ -54,15 +54,34 @@ def run_query(query: str, username: str = None) -> dict:
     params = classification.get("parameters", {})
     
     # Resolve referenced IP from conversation memory if not present in query
+    ip_from_memory = False
     resolved_ip = params.get("ip") or intent_classifier.extract_ip(query)
     if not resolved_ip and username and username in SESSION_MEMORIES:
-        referenced_words = ["its", "this ip", "that ip", "the ip", "the attacker", "show only", "filter", "his", "her", "their", "activity"]
+        referenced_words = ["its", "this ip", "that ip", "the ip", "the attacker", "show only",
+                            "his", "her", "their", "same ip", "that attacker"]
         if any(w in q_lower for w in referenced_words):
             resolved_ip = SESSION_MEMORIES[username].get("last_ip")
             if resolved_ip:
                 params["ip"] = resolved_ip
-                if "ip" not in params:
-                    params["ip"] = resolved_ip
+                ip_from_memory = True
+
+    # If the IP was resolved from memory but the classified intent does NOT use an IP
+    # (e.g. LLM misclassified "show its SSH activity" as get_protocol_summary),
+    # override intent to search_security_events so the remembered IP is actually applied.
+    NON_IP_INTENTS = ("get_protocol_summary", "get_top_attackers", "unknown")
+    if ip_from_memory and intent in NON_IP_INTENTS:
+        intent = "search_security_events"
+        # Extract any protocol keyword the user mentioned in the follow-up query
+        PROTOCOL_KEYWORDS = {
+            "ssh": "SSH", "ftp": "FTP", "http": "HTTP", "https": "HTTPS",
+            "rdp": "RDP", "sqli": "SQLI", "sql": "SQLI", "smb": "SMB",
+            "octopus": "OCTOPUS", "sip": "SIPSESSION", "mysql": "MYSQLD",
+            "mqtt": "MQTTD", "ppp": "PPTPD", "httpd": "HTTPD"
+        }
+        for kw, proto in PROTOCOL_KEYWORDS.items():
+            if kw in q_lower:
+                params["protocol"] = proto
+                break
                     
     # 2. Check for destructive attempts
     if intent == "destructive" or "delete" in q_lower or "drop table" in q_lower or "truncate" in q_lower:
@@ -125,6 +144,7 @@ def run_query(query: str, username: str = None) -> dict:
             "status": "success",
             "intent": "investigate_ip",
             "tools_used": ["get_top_attackers", "investigate_ip"],
+            "tools_executed": ["get_top_attackers", "investigate_ip"],
             "data": combined_data,
             "summary": summary,
             "limitations": []
@@ -182,6 +202,7 @@ def run_query(query: str, username: str = None) -> dict:
             "status": "error",
             "intent": intent,
             "tools_used": tools_executed,
+            "tools_executed": tools_executed,
             "data": {},
             "summary": f"Execution failed: {tool_res.get('message')}",
             "limitations": limitations + [tool_res.get("message")]
@@ -197,6 +218,7 @@ def run_query(query: str, username: str = None) -> dict:
         "status": "success",
         "intent": intent,
         "tools_used": tools_executed,
+        "tools_executed": tools_executed,
         "data": retrieved,
         "summary": summary,
         "limitations": limitations
