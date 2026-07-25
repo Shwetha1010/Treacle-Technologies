@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: soc_db
+    environment:
+      POSTGRES_DB: ${DB_NAME:-soc_assistant}
+      POSTGRES_USER: ${DB_ADMIN_USER:-postgres}
+      POSTGRES_PASSWORD: ${DB_ADMIN_PASSWORD:-postgres_password}
+      POSTGRES_HOST_AUTH_METHOD: trust
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_ADMIN_USER:-postgres} -d ${DB_NAME:-soc_assistant}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  web:
+    build: .
+    container_name: soc_web
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      - DB_HOST=db
+      - DB_PORT=5432
+      - DB_NAME=${DB_NAME:-soc_assistant}
+      - DB_ADMIN_USER=${DB_ADMIN_USER:-postgres}
+      - DB_ADMIN_PASSWORD=${DB_ADMIN_PASSWORD:-postgres_password}
+      - DB_AGENT_USER=${DB_AGENT_USER:-soc_agent}
+      - DB_AGENT_PASSWORD=${DB_AGENT_PASSWORD:-soc_agent_read_only_pass_987}
+      - JWT_SECRET=${JWT_SECRET}
+      - JWT_ALGORITHM=${JWT_ALGORITHM}
+      - GROQ_API_KEY=${GROQ_API_KEY}
+    command: >
+      sh -c "python3 scripts/import_data.py --data-dir ./data && uvicorn app.main:app --host 0.0.0.0 --port 8000"
+
+volumes:
+  pgdata:

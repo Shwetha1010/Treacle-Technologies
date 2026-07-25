@@ -1,0 +1,14 @@
+.git
+.gitignore
+.pytest_cache
+postgres_data
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.example
+tests/
+walkthrough.md
+system_architecture_deep_dive.md
+evaluation_report.md
