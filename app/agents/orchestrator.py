@@ -43,7 +43,28 @@ def generate_analyst_summary(query: str, tools_used: list, retrieved_data: dict)
     except Exception as e:
         return f"Data retrieved successfully. (Summary generation failed: {e})"
 
-SESSION_MEMORIES = {}
+_MEMORY_FILE = os.path.join(os.path.dirname(__file__), "session_memories.json")
+
+def _load_memories() -> dict:
+    """Load session memories from disk (survives server restarts)."""
+    try:
+        if os.path.exists(_MEMORY_FILE):
+            with open(_MEMORY_FILE, "r") as f:
+                return json.load(f)
+    except Exception:
+        pass
+    return {}
+
+def _save_memories(memories: dict):
+    """Persist session memories to disk."""
+    try:
+        with open(_MEMORY_FILE, "w") as f:
+            json.dump(memories, f)
+    except Exception:
+        pass
+
+SESSION_MEMORIES = _load_memories()
+
 
 def run_query(query: str, username: str = None) -> dict:
     q_lower = query.lower()
@@ -139,6 +160,7 @@ def run_query(query: str, username: str = None) -> dict:
         
         if username and top_ip:
             SESSION_MEMORIES[username] = {"last_ip": top_ip}
+            _save_memories(SESSION_MEMORIES)
             
         return {
             "status": "success",
@@ -213,6 +235,7 @@ def run_query(query: str, username: str = None) -> dict:
     
     if username and resolved_ip:
         SESSION_MEMORIES[username] = {"last_ip": resolved_ip}
+        _save_memories(SESSION_MEMORIES)
         
     return {
         "status": "success",

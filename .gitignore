@@ -12,6 +12,7 @@ postgres_data/
 .env
 .env.local
 
-# Operating System files
+# Operating System & Runtime files
 .DS_Store
 Thumbs.db
+session_memories.json

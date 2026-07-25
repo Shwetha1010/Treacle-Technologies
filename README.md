@@ -6,6 +6,14 @@ The application is built on a FastAPI backend, connects to a PostgreSQL database
 
 ---
 
+## 🎥 Demo Video
+
+[![Watch the Demo](https://img.shields.io/badge/Watch%20Demo-Loom-blueviolet?logo=loom&style=for-the-badge)](https://www.loom.com/share/e45f3bd94968483c8d3ebe53e4f23a2d)
+
+> Click the badge above to watch a full walkthrough of the Agentic SOC Assistant — including natural language querying, multi-step IP investigation, conversational memory, and destructive query rejection.
+
+---
+
 ## 1. Project Overview
 
 The Agentic SOC Assistant acts as an automated forensic analyst. It parses natural-language security questions, determines user intent, executes predefined database tools securely, compiles the results, and uses a Large Language Model (LLM) to generate a professional, grounded security summary. 
